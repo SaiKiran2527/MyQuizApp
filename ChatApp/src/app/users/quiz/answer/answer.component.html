@@ -1,0 +1,4 @@
+<p>{{msg}}</p>
+<div *ngIf="j<count-1"><button routerLink="/quiz" (click)="nextQuestion()">Next ></button></div>
+
+<div *ngIf="j==count-1"><button routerLink="/end" (click)="nextQuestion()">Next ></button></div>
